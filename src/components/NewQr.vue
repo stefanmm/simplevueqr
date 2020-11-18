@@ -1,6 +1,6 @@
 <template>
 <div id="qrholder" class="container is-max-desktop ">
-  <div class="columns is-mobile">
+  <div class="columns is-variable is-0-tablet is-0-mobile">
     <div class="column is-half is-offset-one-quarter">
 
         <div class="card">
