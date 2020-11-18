@@ -1,28 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <section class="hero is-info mb-6 has-text-centered	">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            QR Code Generator
+          </h1>
+          <h2 class="subtitle">
+            Simple VUE.js QR code generator
+          </h2>
+        </div>
+      </div>
+    </section>
+  
+  <NewQr />
   </div>
+   
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NewQr from './components/NewQr'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NewQr
+    
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body, html {
+  background-color: #363636!important;
 }
 </style>
