@@ -14,17 +14,20 @@
     </section>
   
   <NewQr />
+  <Footer />
   </div>
    
 </template>
 
 <script>
 import NewQr from './components/NewQr'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
-    NewQr
+    NewQr,
+    Footer
     
   }
 }

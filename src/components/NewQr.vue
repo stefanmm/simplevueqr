@@ -1,5 +1,5 @@
 <template>
-<div id="qrholder" class="container is-max-desktop">
+<div id="qrholder" class="container is-max-desktop ">
   <div class="columns is-mobile">
     <div class="column is-half is-offset-one-quarter">
 
